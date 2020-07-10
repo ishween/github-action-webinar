@@ -1,0 +1,10 @@
+name: When a push occurs in master branch, a private msg is sent to the whatsapp.
+on: [push]
+
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: whatsapp-notify
+        run: echo 'Start!'
