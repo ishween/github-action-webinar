@@ -1,0 +1,6 @@
+name: "Github Action Webinar"
+description: "Triggers a private msg to whatsapp when a push is created"
+author: "Ishween Kaur"
+branding:
+  icon: message-square
+  color: blue
