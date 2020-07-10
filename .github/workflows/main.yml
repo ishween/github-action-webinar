@@ -6,5 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - name: whatsapp-notify
-        run: echo 'Start!'
+      - name: install twilio
+        run: pip install twilio
+      - name: run code
+        run: python main.py
