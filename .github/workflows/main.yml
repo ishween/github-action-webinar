@@ -10,3 +10,7 @@ jobs:
         run: pip install twilio
       - name: run code
         run: python main.py
+        env:
+          account_sid: ${{ secrets.account_sid }}
+          auth_token: ${{ secrets.auth_token }}
+          whatsapp_no: ${{ secrets.whatsapp_no }}
